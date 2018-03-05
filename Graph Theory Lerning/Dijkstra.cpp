@@ -15,6 +15,8 @@ using namespace std;
 #define pii pair<int, int>
 #define mem(name, value) memset(name, value, sizeof(name))
 
+/// M A C R O Ends here
+
 /// Adjacency List, Cost, Path_array
 vector<int>Adj[MAX+10],Cost[MAX+10],Path;
 
