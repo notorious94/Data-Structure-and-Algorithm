@@ -18,6 +18,8 @@ using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;
 
+/// M A C R O Ends here
+
 class edge
 {
 public:
