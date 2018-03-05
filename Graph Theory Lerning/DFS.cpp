@@ -31,6 +31,8 @@ int isLeft(double a, double b, double c, double d, double e, double f)
     return 1;
 }
 
+/// M A C R O Ends here
+
 vector<int>graph[10000];
 int visited[10003];
 int d[10003], f[10003];
