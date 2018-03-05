@@ -2,6 +2,8 @@
 #define MAX 100000
 using namespace std;
 
+/// M A C R O Ends here
+
 vector<int>adjList[MAX];
 int level[MAX],parent[MAX];
 bool visit[MAX];
