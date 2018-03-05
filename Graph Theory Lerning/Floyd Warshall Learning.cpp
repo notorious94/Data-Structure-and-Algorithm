@@ -4,6 +4,8 @@
 
 using namespace std;
 
+/// M A C R O Ends here
+
 int graph[MAX][MAX],path[MAX][MAX];
 
 void init(int n)
