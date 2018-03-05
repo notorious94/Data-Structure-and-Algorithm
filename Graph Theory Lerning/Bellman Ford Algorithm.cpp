@@ -23,6 +23,8 @@ int dx[]={0,0,1,-1,-1,1,-1,1};
 int dy[]={-1,1,0,0,1,1,-1,-1};
 int dz[]={0,0,+1,-1,-1,+1,-1,+1};
 
+/// M A C R O Ends here
+
 int isLeft(double a, double b, double c, double d, double e, double f)
 {
     double r = 0.5*((a*(d-f))+(b*(e-c))+((c*f)-(d*e)));
