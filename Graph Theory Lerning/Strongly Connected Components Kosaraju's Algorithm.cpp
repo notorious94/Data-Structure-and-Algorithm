@@ -60,10 +60,10 @@ void edge(int m)
 int printComponent(int scc)
 {
     sort(all(temp));
-    printf("SCC %d: ",++scc);
+    cout<<"SCC "<<++scc<<" -> (" ;
     for(int j=0; j<temp.size(); j++)
-        printf(" %c",temp[j]-1+'A');
-    printf("\n");
+        cout<<" "<<(char)(temp[j]-1+'A');
+    cout<<" )"<<endl;
     return scc;
 }
 
@@ -110,7 +110,7 @@ void call_2(int n)
 
 int main()
 {
-    //freopen("in.txt","r", stdin);
+    freopen("in.txt","r", stdin);
     //freopen("out.txt","w", stdout);
     int n,m;
     cin>>n>>m;
@@ -120,3 +120,24 @@ int main()
     call_2(n);
     return 0;
 }
+
+/*
+
+Input:
+
+11 13
+1 2
+2 3
+3 1
+2 4
+4 5
+5 6
+6 4
+7 6
+7 8
+8 9
+9 10
+10 7
+10 11
+
+*/
